@@ -1,0 +1,74 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html {
+  font-size: 62.5%;
+  font-family: 'League Spartan', sans-serif;
+  user-select: none;
+}
+
+/*---------------- flex-------------------- */
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end{
+  justify-content: end;
+
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.items-end{
+  align-items: end;
+}
+.font-32{
+  font-size: 3.2rem;
+}
+.g-45 {
+  gap: 4.5rem;
+}
+.g-30 {
+  gap: 3rem;
+}
+.g-24 {
+  gap: 2.4rem;
+}
+.g-16 {
+  gap: 1.6rem;
+}
+.g-31 {
+  gap: 3.1rem;
+}
+.g-8 {
+  gap: 8px;
+}
+.g-5{
+  gap: 5px;
+}
