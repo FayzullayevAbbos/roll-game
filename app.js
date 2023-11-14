@@ -14,6 +14,7 @@ const h2 = document.querySelector("#h2");
 
 exit.addEventListener("click", () => {
   modal.style.display = "none";
+  rest()
 });
 
 // functions
